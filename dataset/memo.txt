@@ -1,0 +1,7 @@
+lightweight_gan \
+    --data ./01_dataset \
+    --name 'm5' \
+    --batch-size 64 \
+    --gradient-accumulate-every 4 \
+    --num-train-steps 200000 \
+    --image-size 128
